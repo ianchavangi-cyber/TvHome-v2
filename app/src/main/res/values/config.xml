@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Columns in the All Apps grid (4 to 7) -->
+    <integer name="columns">6</integer>
+
+    <!-- Default dock apps, left to right (package names). Missing ones are skipped.
+         Settings and the browser are added automatically on first run.
+         After that the dock is edited on the TV itself (Customize > Edit dock layout). -->
+    <string-array name="dock_apps">
+        <item>com.google.android.youtube.tv</item>
+        <item>com.netflix.ninja</item>
+        <item>com.amazon.amazonvideo.livingroom</item>
+        <item>com.spotify.tv.android</item>
+        <item>com.google.android.youtube.tvmusic</item>
+        <item>com.cricfytv.sports</item>
+        <item>ONSTREAM_PACKAGE_HERE</item>
+    </string-array>
+</resources>
